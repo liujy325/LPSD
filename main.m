@@ -26,5 +26,5 @@ for image_idx = start_image:end_image
 
     close all
     image_fusion(test_img1, test_img2, double(inv(H)));
-    showMatchedFeatures(test_img1,test_img2,matched_points1,matched_points2,"montage");
+    figure; showMatchedFeatures(test_img1,test_img2,matched_points1,matched_points2,"montage");
 end
